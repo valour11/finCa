@@ -33,6 +33,9 @@ export default function LoginPage() {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#E6ECF5] to-[#D3DAE6] p-4">
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
+          <div className="flex justify-center mb-4">
+            <img src="/finCaLogo.png" alt="FinCa" className="h-16" />
+          </div>
           <CardTitle className="text-2xl">Welcome Back</CardTitle>
           <CardDescription>Sign in to your FinCa account</CardDescription>
         </CardHeader>

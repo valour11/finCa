@@ -34,6 +34,9 @@ export default function RegisterPage() {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#E6ECF5] to-[#D3DAE6] p-4">
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
+          <div className="flex justify-center mb-4">
+            <img src="/finCaLogo.png" alt="FinCa" className="h-16" />
+          </div>
           <CardTitle className="text-2xl">Create Account</CardTitle>
           <CardDescription>Start tracking your finances with FinCa</CardDescription>
         </CardHeader>
