@@ -3,12 +3,15 @@ node_modules/
 .pnp
 .pnp.js
 
+# Server
+server/node_modules/
+
 # Testing
 coverage/
 
 # Next.js
-.next/
-out/
+client/.next/
+client/out/
 
 # Production
 build/
@@ -25,6 +28,7 @@ yarn-error.log*
 # Local env files
 .env
 .env*.local
+.env.production.local
 
 # Vercel
 .vercel
@@ -36,3 +40,6 @@ next-env.d.ts
 # IDE
 .idea/
 .vscode/
+
+# OS
+Thumbs.db
